@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Customer Registration | E-STORE</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height:100vh;
+    background:linear-gradient(135deg,#4facfe,#00f2fe);
+}
+
+.container{
+    width:430px;
+    background:#fff;
+    padding:30px;
+    border-radius:15px;
+    box-shadow:0 10px 25px rgba(0,0,0,0.3);
+}
+
+.logo{
+    text-align:center;
+    font-size:40px;
+}
+
+h2{
+    text-align:center;
+    color:#0077cc;
+    margin-top:8px;
+}
+
+.subtitle{
+    text-align:center;
+    color:#666;
+    margin-bottom:20px;
+}
+
+.input-group{
+    margin-bottom:15px;
+}
+
+.input-group label{
+    display:block;
+    font-weight:bold;
+    margin-bottom:6px;
+    color:#333;
+}
+
+.input-group input{
+    width:100%;
+    padding:12px;
+    border:1px solid #ccc;
+    border-radius:8px;
+    font-size:15px;
+}
+
+.input-group input:focus{
+    border-color:#0077cc;
+    outline:none;
+    box-shadow:0 0 8px rgba(0,119,204,0.3);
+}
+
+.btn{
+    width:100%;
+    padding:13px;
+    border:none;
+    border-radius:8px;
+    background:#0077cc;
+    color:white;
+    font-size:17px;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+.btn:hover{
+    background:#005fa3;
+}
+
+.login-link{
+    margin-top:18px;
+    text-align:center;
+}
+
+.login-link a{
+    color:#0077cc;
+    font-weight:bold;
+    text-decoration:none;
+}
+
+.login-link a:hover{
+    text-decoration:underline;
+}
+</style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+<div class="logo">&#128722;</div>
+
+<h2>E-STORE</h2>
+<p class="subtitle">Customer Registration</p>
+
+<form action="creg" method="post">
+
+<div class="input-group">
+<label>User Name</label>
+<input type="text" name="UNAME" placeholder="Enter User Name" required>
+</div>
+
+<div class="input-group">
+<label>Password</label>
+<input type="password" name="PWARD" placeholder="Enter Password" required>
+</div>
+
+<div class="input-group">
+<label>First Name</label>
+<input type="text" name="UFNAME" placeholder="Enter First Name" required>
+</div>
+
+<div class="input-group">
+<label>Last Name</label>
+<input type="text" name="LNAME" placeholder="Enter Last Name" required>
+</div>
+
+<div class="input-group">
+<label>Address</label>
+<input type="text" name="ADDR" placeholder="Enter Address" required>
+</div>
+
+<div class="input-group">
+<label>Email</label>
+<input type="email" name="MID" placeholder="Enter Email" required>
+</div>
+
+<div class="input-group">
+<label>Mobile Number</label>
+<input type="tel" name="PHNO" maxlength="10" placeholder="Enter Mobile Number" required>
+</div>
+
+<input type="submit" class="btn" value="Register">
+
+</form>
+
+<div class="login-link">
+Already have an account?
+<a href="CustomerLogin.html">Login Here</a>
+</div>
+
+</div>
+
+</body>
+</html>
