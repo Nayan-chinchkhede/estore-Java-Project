@@ -74,6 +74,7 @@ WebContent/
 - Email Notifications
 
 ## Screenshots
+## Screenshots
 
 ### Home Page
 ![Home Page](screenshots/home-page.png)
@@ -88,7 +89,7 @@ WebContent/
 ![Add Product](screenshots/add-product.png)
 
 ### View Products (Admin)
-![View Products (Admin)](screenshots/view-products-admin.png)
+![View Products Admin](screenshots/view-products-admin.png)
 
 ### Edit Product
 ![Edit Product](screenshots/edit-product.png)
