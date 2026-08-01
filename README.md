@@ -73,7 +73,23 @@ WebContent/
 - Product Images Upload
 - Email Notifications
 
+![Home Page](home-page.png)
 
+![Admin Login](admin-login.png)
+
+![Admin Dashboard](admin-dashboard.png)
+
+![Add Product](add-product.png)
+
+![Edit Product](edit-product.png)
+
+![Customer Login](customer-login.png)
+
+![Customer Registration](customer-registration.png)
+
+![Buy Product](buy-product.png)
+
+![Order Success](order-success.png)
 
 ## Author
 
