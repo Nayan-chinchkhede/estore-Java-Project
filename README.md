@@ -73,9 +73,51 @@ WebContent/
 - Product Images Upload
 - Email Notifications
 
+## Screenshots
+
+### Home Page
+![Home Page](screenshots/home-page.png)
+
+### Admin Login
+![Admin Login](screenshots/admin-login.png)
+
+### Admin Dashboard
+![Admin Dashboard](screenshots/admin-dashboard.png)
+
+### Add Product
+![Add Product](screenshots/add-product.png)
+
+### View Products (Admin)
+![View Products (Admin)](screenshots/view-products-admin.png)
+
+### Edit Product
+![Edit Product](screenshots/edit-product.png)
+
+### Customer Login
+![Customer Login](screenshots/customer-login.png)
+
+### Customer Registration
+![Customer Registration](screenshots/customer-registration.png)
+
+### Customer Dashboard
+![Customer Dashboard](screenshots/customer-dashboard.png)
+
+### Product List
+![Product List](screenshots/product-list.png)
+
+### Buy Product
+![Buy Product](screenshots/buy-product.png)
+
+### Order Success
+![Order Success](screenshots/order-success.png)
+
+### View Orders
+![View Orders](screenshots/view-orders.png)
+
 ## Author
+
 **Nayan Chinchkhede**
 
 BCA Graduate | Java Full Stack Learner
 
-GitHub: https://github.com/<nayan-chinchkhede>
+GitHub: https://github.com/your-username
